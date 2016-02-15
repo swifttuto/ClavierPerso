@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED363CA1C722DB20078ACE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED363C91C722DB20078ACE7 /* AppDelegate.swift */; };
+		CED363CC1C722DB20078ACE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED363CB1C722DB20078ACE7 /* ViewController.swift */; };
+		CED363CF1C722DB20078ACE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED363CD1C722DB20078ACE7 /* Main.storyboard */; };
+		CED363D11C722DB20078ACE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED363D01C722DB20078ACE7 /* Assets.xcassets */; };
+		CED363D41C722DB20078ACE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED363D21C722DB20078ACE7 /* LaunchScreen.storyboard */; };
+		CED363E21C7231270078ACE7 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED363E11C7231270078ACE7 /* KeyboardViewController.swift */; };
+		CED363E61C7231270078ACE7 /* ClavierSwiftTuto.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CED363DF1C7231270078ACE7 /* ClavierSwiftTuto.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CED363EC1C7232ED0078ACE7 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED363EB1C7232ED0078ACE7 /* KeyboardView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED363E41C7231270078ACE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED363BE1C722DB20078ACE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED363DE1C7231270078ACE7;
+			remoteInfo = ClavierSwiftTuto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CED363EA1C7231270078ACE7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CED363E61C7231270078ACE7 /* ClavierSwiftTuto.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CED363C61C722DB20078ACE7 /* ClavierPerso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClavierPerso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED363C91C722DB20078ACE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED363CB1C722DB20078ACE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED363CE1C722DB20078ACE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED363D01C722DB20078ACE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED363D31C722DB20078ACE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED363D51C722DB20078ACE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED363DF1C7231270078ACE7 /* ClavierSwiftTuto.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClavierSwiftTuto.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED363E11C7231270078ACE7 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		CED363E31C7231270078ACE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED363EB1C7232ED0078ACE7 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED363C31C722DB20078ACE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED363DC1C7231270078ACE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED363BD1C722DB20078ACE7 = {
+			isa = PBXGroup;
+			children = (
+				CED363C81C722DB20078ACE7 /* ClavierPerso */,
+				CED363E01C7231270078ACE7 /* ClavierSwiftTuto */,
+				CED363C71C722DB20078ACE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED363C71C722DB20078ACE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED363C61C722DB20078ACE7 /* ClavierPerso.app */,
+				CED363DF1C7231270078ACE7 /* ClavierSwiftTuto.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED363C81C722DB20078ACE7 /* ClavierPerso */ = {
+			isa = PBXGroup;
+			children = (
+				CED363C91C722DB20078ACE7 /* AppDelegate.swift */,
+				CED363CB1C722DB20078ACE7 /* ViewController.swift */,
+				CED363CD1C722DB20078ACE7 /* Main.storyboard */,
+				CED363D01C722DB20078ACE7 /* Assets.xcassets */,
+				CED363D21C722DB20078ACE7 /* LaunchScreen.storyboard */,
+				CED363D51C722DB20078ACE7 /* Info.plist */,
+			);
+			path = ClavierPerso;
+			sourceTree = "<group>";
+		};
+		CED363E01C7231270078ACE7 /* ClavierSwiftTuto */ = {
+			isa = PBXGroup;
+			children = (
+				CED363EB1C7232ED0078ACE7 /* KeyboardView.xib */,
+				CED363E11C7231270078ACE7 /* KeyboardViewController.swift */,
+				CED363E31C7231270078ACE7 /* Info.plist */,
+			);
+			path = ClavierSwiftTuto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED363C51C722DB20078ACE7 /* ClavierPerso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED363D81C722DB20078ACE7 /* Build configuration list for PBXNativeTarget "ClavierPerso" */;
+			buildPhases = (
+				CED363C21C722DB20078ACE7 /* Sources */,
+				CED363C31C722DB20078ACE7 /* Frameworks */,
+				CED363C41C722DB20078ACE7 /* Resources */,
+				CED363EA1C7231270078ACE7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED363E51C7231270078ACE7 /* PBXTargetDependency */,
+			);
+			name = ClavierPerso;
+			productName = ClavierPerso;
+			productReference = CED363C61C722DB20078ACE7 /* ClavierPerso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED363DE1C7231270078ACE7 /* ClavierSwiftTuto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED363E71C7231270078ACE7 /* Build configuration list for PBXNativeTarget "ClavierSwiftTuto" */;
+			buildPhases = (
+				CED363DB1C7231270078ACE7 /* Sources */,
+				CED363DC1C7231270078ACE7 /* Frameworks */,
+				CED363DD1C7231270078ACE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClavierSwiftTuto;
+			productName = ClavierSwiftTuto;
+			productReference = CED363DF1C7231270078ACE7 /* ClavierSwiftTuto.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED363BE1C722DB20078ACE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Swift Tuto";
+				TargetAttributes = {
+					CED363C51C722DB20078ACE7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CED363DE1C7231270078ACE7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CED363C11C722DB20078ACE7 /* Build configuration list for PBXProject "ClavierPerso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED363BD1C722DB20078ACE7;
+			productRefGroup = CED363C71C722DB20078ACE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED363C51C722DB20078ACE7 /* ClavierPerso */,
+				CED363DE1C7231270078ACE7 /* ClavierSwiftTuto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED363C41C722DB20078ACE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED363D41C722DB20078ACE7 /* LaunchScreen.storyboard in Resources */,
+				CED363D11C722DB20078ACE7 /* Assets.xcassets in Resources */,
+				CED363CF1C722DB20078ACE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED363DD1C7231270078ACE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED363EC1C7232ED0078ACE7 /* KeyboardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED363C21C722DB20078ACE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED363CC1C722DB20078ACE7 /* ViewController.swift in Sources */,
+				CED363CA1C722DB20078ACE7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED363DB1C7231270078ACE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED363E21C7231270078ACE7 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED363E51C7231270078ACE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED363DE1C7231270078ACE7 /* ClavierSwiftTuto */;
+			targetProxy = CED363E41C7231270078ACE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED363CD1C722DB20078ACE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED363CE1C722DB20078ACE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED363D21C722DB20078ACE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED363D31C722DB20078ACE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED363D61C722DB20078ACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED363D71C722DB20078ACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED363D91C722DB20078ACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ClavierPerso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.swift-tuto.ClavierPerso";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CED363DA1C722DB20078ACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ClavierPerso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.swift-tuto.ClavierPerso";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CED363E81C7231270078ACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClavierSwiftTuto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.swift-tuto.ClavierPerso.ClavierSwiftTuto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CED363E91C7231270078ACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClavierSwiftTuto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.swift-tuto.ClavierPerso.ClavierSwiftTuto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED363C11C722DB20078ACE7 /* Build configuration list for PBXProject "ClavierPerso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED363D61C722DB20078ACE7 /* Debug */,
+				CED363D71C722DB20078ACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED363D81C722DB20078ACE7 /* Build configuration list for PBXNativeTarget "ClavierPerso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED363D91C722DB20078ACE7 /* Debug */,
+				CED363DA1C722DB20078ACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED363E71C7231270078ACE7 /* Build configuration list for PBXNativeTarget "ClavierSwiftTuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED363E81C7231270078ACE7 /* Debug */,
+				CED363E91C7231270078ACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED363BE1C722DB20078ACE7 /* Project object */;
+}
